@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./src/main.css" type="text/css" rel="stylesheet" />
+  <title>Vite + TS + Web components</title>
+</head>
+
+<body>
+  <div class="pt-6 my-0 mx-auto w-[420px]">
+    <pdnd-list>
+      <pdnd-list-item task-id="task-0">
+        Organize a team-building event
+        <span slot="label"
+          class="bg-violet-200 uppercase p-1 rounded font-semibold flex-shrink-0 text-xs text-slate-900">TODO</span>
+      </pdnd-list-item>
+      <pdnd-list-item task-id="task-1">
+        Create and maintain office inventory
+        <span slot="label"
+          class="bg-amber-200 uppercase p-1 rounded font-semibold flex-shrink-0 text-xs text-slate-900">In
+          progress</span>
+      </pdnd-list-item>
+      <pdnd-list-item task-id="task-2">
+        Update company website content
+        <span slot="label"
+          class="bg-green-200 uppercase p-1 rounded font-semibold flex-shrink-0 text-xs text-slate-900">Done</span>
+      </pdnd-list-item>
+      <pdnd-list-item task-id="task-3">
+        Plan and execute marketing campaigns
+        <span slot="label"
+          class="bg-violet-200 uppercase p-1 rounded font-semibold flex-shrink-0 text-xs text-slate-900">TODO</span>
+      </pdnd-list-item>
+      <pdnd-list-item task-id="task-4">
+        Coordinate employee training sessions
+        <span slot="label"
+          class="bg-green-200 uppercase p-1 rounded font-semibold flex-shrink-0 text-xs text-slate-900">Done</span>
+      </pdnd-list-item>
+      <pdnd-list-item task-id="task-5">
+        Manage facility maintenance
+        <span slot="label"
+          class="bg-green-200 uppercase p-1 rounded font-semibold flex-shrink-0 text-xs text-slate-900">Done</span>
+      </pdnd-list-item>
+      <pdnd-list-item task-id="task-6">
+        Organize customer feedback surveys
+        <span slot="label"
+          class="bg-violet-200 uppercase p-1 rounded font-semibold flex-shrink-0 text-xs text-slate-900">TODO</span>
+      </pdnd-list-item>
+      <pdnd-list-item task-id="task-7">
+        Coordinate travel arrangements
+        <span slot="label"
+          class="bg-amber-200 uppercase p-1 rounded font-semibold flex-shrink-0 text-xs text-slate-900">In
+          progress</span>
+      </pdnd-list-item>
+    </pdnd-list>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
